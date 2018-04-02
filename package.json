@@ -4,7 +4,8 @@
   "description": "Bootstrap 4 starter workflow",
   "main": "index.js",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+	"deploy": "gh-pages -d dist"
   },
   "author": "Brad Traversy",
   "license": "MIT",
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "browser-sync": "^2.18.13",
+    "gh-pages": "^1.1.0",
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0"
   }
